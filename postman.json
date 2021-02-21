@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "f0efd831-06c7-4d07-ad6e-aaad9d0b682a",
+		"name": "totaljs-api-rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\":\"hi\",\n\t\"body\":\"bar\",\n\t\"userId\":\"1\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/test",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
